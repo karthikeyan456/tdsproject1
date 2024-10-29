@@ -1,7 +1,7 @@
 import requests
 import csv
 
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = "XXXXXX"
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"}
 
 def fetch_users(query, per_page=100):
